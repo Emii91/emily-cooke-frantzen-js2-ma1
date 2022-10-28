@@ -1,4 +1,4 @@
-/* * {
+* {
     box-sizing: border-box;
 }
 
@@ -7,23 +7,24 @@ body {
     margin: 0;
 }
 
-.container {
+/* .container {
     max-width: 900px;
-    margin: 20px auto;
-}
+    margin: 0px auto;
+} */
 
-.book-container {
+.product-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
-.book {
+.product {
     margin: 1rem;
     padding: 1rem;
     background: white;
     border: 1px solid lightgrey;
     border-radius: 1rem;
-    min-width: 200px;
+    width: 400px;
     position: relative;
 }
 
@@ -47,4 +48,4 @@ body {
 .message.success {
     border-color: green;
     color: green;
-} */
+}
