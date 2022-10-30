@@ -17,3 +17,12 @@ export function searchProducts(products) {
         renderProducts(filteredProducts);
     };
 }
+
+
+
+
+
+
+
+
+

@@ -2,6 +2,7 @@ import { renderProducts } from "./ui/renderProducts.js";
 import { searchProducts } from "./ui/searchProducts.js";
 import { displayMessage } from "./ui/displayMessage.js";
 
+
 const url = "https://fakestoreapi.com/products";
 
 async function getProducts() {
@@ -20,3 +21,7 @@ async function getProducts() {
 }
 
 getProducts();
+
+
+
+
